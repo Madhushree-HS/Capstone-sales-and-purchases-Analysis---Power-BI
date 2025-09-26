@@ -27,46 +27,63 @@ Businesses struggle to connect sales performance with supplier effectiveness. Th
 ---
 <h2><a class="anchor" id="dataset"></a>Dataset</h2>
 
-**Sales Data:** Sales.htm (57 transactions, 28 attributes)
-**Purchase Data:** Purchases.htm (54 purchase records, 9 attributes)
-**Countries Data:** Countries.xlsx
-**Total Integrated Dataset:** 57 records with combined sales and supplier attributes
+**1. Sales Data:** Sales.htm (57 transactions, 28 attributes)
+
+**2. Purchase Data:** Purchases.htm (54 purchase records, 9 attributes)
+
+**3. Countries Data:** Countries.xlsx
+
+**4. Total Integrated Dataset:** 57 records with combined sales and supplier attributes
 
 ---
 
 <h2><a class="anchor" id="tools--technologies"></a>Tools & Technologies</h2>
 
-**Excel Sheets:** Data integration using VLOOKUP/XLOOKUP, initial analysis
-**Python (Pandas, NumPy, Matplotlib, Seaborn)**: Data merging, advanced analytics, visualization
-**Power BI:** Interactive dashboards with drill-down capabilities
-**SQL:** For database integration and querying (optional)
-**Jupyter Notebook:** End-to-end reproducible analysis
+**1. Excel Sheets:** Data integration using VLOOKUP/XLOOKUP, initial analysis
+
+**2. Python (Pandas, NumPy, Matplotlib, Seaborn)**: Data merging, advanced analytics, visualization
+
+**3. Power BI:** Interactive dashboards with drill-down capabilities
+
+**4. SQL:** For database integration and querying (optional)
+
+**5. Jupyter Notebook:** End-to-end reproducible analysis
 
 ---
 <h2><a class="anchor" id="Method"></a>Method</h2>
 
-**Data Integration:** Merge Sales and Purchases datasets using OrderID as key
-**Data Cleaning:** Handle inconsistencies in dates, supplier names, return status
-**Supplier Performance Metrics:** Return Rate by Supplier
+**1. Data Integration:** Merge Sales and Purchases datasets using OrderID as key
+
+**2. Data Cleaning:** Handle inconsistencies in dates, supplier names, return status
+
+**3. Supplier Performance Metrics:** Return Rate by Supplier
                                   Warranty Effectiveness
                                   Feedback Score Analysis
-**Cross-Dataset Analysis:** Supplier quality vs. Product ratings
-                            Return patterns by Product Category
-                            Warranty length impact on customer satisfaction
-**Time Series Analysis:** Purchase date vs. Sales date lead times
-**Predictive Modeling:** Identify suppliers likely to have high return rates
+                                  
+**4. Cross-Dataset Analysis:** Supplier quality vs. Product ratings
+                               Return patterns by Product Category
+                               Warranty length impact on customer satisfaction
+                            
+**5. Time Series Analysis:** Purchase date vs. Sales date lead times
 
+**6. Predictive Modeling:** Identify suppliers likely to have high return rates
 
 ---
 <h2><a class="anchor" id="key-insights"></a>Key-insights</h2>
 
-**Supplier Performance:** Which suppliers have highest/lowest return rates
-**Warranty Impact:** Correlation between warranty length and customer feedback
-**Return Patterns:** Products/categories with highest return rates
-**Supplier-Sales Rep Alignment:** Which sales reps work with most reliable suppliers
-**Time Analysis:** Purchase-to-sale cycle times by supplier
-**Risk Assessment:** High-return suppliers affecting profitability
-**Customer Satisfaction:** Link between supplier quality and product ratings
+**1. Supplier Performance:** Which suppliers have highest/lowest return rates
+
+**2. Warranty Impact:** Correlation between warranty length and customer feedback
+
+**3. Return Patterns:** Products/categories with highest return rates
+
+**4. Supplier-Sales Rep Alignment:** Which sales reps work with most reliable suppliers
+
+**5. Time Analysis:** Purchase-to-sale cycle times by supplier
+
+**6. Risk Assessment:** High-return suppliers affecting profitability
+
+**7. Customer Satisfaction:** Link between supplier quality and product ratings
 
 ---
 <h2><a class="anchor" id="dashboard"></a>Dashboard</h2>
@@ -75,9 +92,12 @@ Businesses struggle to connect sales performance with supplier effectiveness. Th
                                         Supplier Reliability Scorecard
                                         Return Analysis by Category/Supplier
                                         Warranty Effectiveness Metrics
-**Supplier Rating System:** Composite score based on returns, warranty, feedback
-**Alert System:** Flags for suppliers with return rates > 15%
-**Interactive Filters:** By date range, product category, sales rep, supplier
+                                        
+**1. Supplier Rating System:** Composite score based on returns, warranty, feedback
+
+**2. Alert System:** Flags for suppliers with return rates > 15%
+
+**3. Interactive Filters:** By date range, product category, sales rep, supplier
 
 ---
 <h2><a class="anchor" id="how-to-run-this-project"></a>How to Run This Project</h2>
