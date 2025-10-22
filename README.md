@@ -1,4 +1,4 @@
-# 🧾Integrated-Sales-Supplier-Performance-Analysis-Power-BI
+# 🧾Capstone sales and purchases Analysis-Power-BI
 
 _A comprehensive analysis integrating sales transactions with supplier purchase data to optimize procurement, supplier relationships, and overall profitability._
 
