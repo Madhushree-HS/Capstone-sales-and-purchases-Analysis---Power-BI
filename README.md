@@ -15,17 +15,17 @@ _A comprehensive analysis integrating sales transactions with supplier purchase 
 - <a href="#final-recommendations">Final Recommendations</a>
 
 ---
-<h2><a class="anchor" id="overview"></a>Overview</h2>
+<h2><a class="anchor" id="overview"></a>📘 Overview</h2>
 
 This project combines sales data with supplier purchase information to provide a holistic view of business operations. It analyzes sales performance, customer behavior, supplier reliability, return patterns, and warranty effectiveness to support strategic decision-making across sales, procurement, and inventory management.
 
 ---
-<h2><a class="anchor" id="problem-statement"></a>Problem-Statement</h2>
+<h2><a class="anchor" id="problem-statement"></a>🎯 Problem-Statement</h2>
 
 Businesses struggle to connect sales performance with supplier effectiveness. There's a need to identify which suppliers deliver quality products (low returns, good warranties), how supplier performance impacts customer satisfaction, and how to optimize procurement strategies to maximize profitability while minimizing risks.
 
 ---
-<h2><a class="anchor" id="dataset"></a>Dataset</h2>
+<h2><a class="anchor" id="dataset"></a>📂 Dataset</h2>
 
 **1. Sales Data:** Sales.htm (57 transactions, 28 attributes)
 
@@ -37,7 +37,7 @@ Businesses struggle to connect sales performance with supplier effectiveness. Th
 
 ---
 
-<h2><a class="anchor" id="tools--technologies"></a>Tools & Technologies</h2>
+<h2><a class="anchor" id="tools--technologies"></a>🛠 Tools & Technologies</h2>
 
 **1. Excel Sheets:** Data integration using VLOOKUP/XLOOKUP, initial analysis
 
@@ -50,7 +50,7 @@ Businesses struggle to connect sales performance with supplier effectiveness. Th
 **5. Jupyter Notebook:** End-to-end reproducible analysis
 
 ---
-<h2><a class="anchor" id="Method"></a>Method</h2>
+<h2><a class="anchor" id="Method"></a>⚙ Method</h2>
 
 **1. Data Integration:** Merge Sales and Purchases datasets using OrderID as key
 
@@ -69,7 +69,7 @@ Businesses struggle to connect sales performance with supplier effectiveness. Th
 **6. Predictive Modeling:** Identify suppliers likely to have high return rates
 
 ---
-<h2><a class="anchor" id="key-insights"></a>Key-insights</h2>
+<h2><a class="anchor" id="key-insights"></a>📊 Key-insights</h2>
 
 **1. Supplier Performance:** Which suppliers have highest/lowest return rates
 
@@ -86,7 +86,7 @@ Businesses struggle to connect sales performance with supplier effectiveness. Th
 **7. Customer Satisfaction:** Link between supplier quality and product ratings
 
 ---
-<h2><a class="anchor" id="dashboard"></a>Dashboard</h2>
+<h2><a class="anchor" id="dashboard"></a>📈 Dashboard</h2>
 
 **Integrated Dashboard with tabs for:** Sales Performance Overview
                                         Supplier Reliability Scorecard
@@ -100,14 +100,14 @@ Businesses struggle to connect sales performance with supplier effectiveness. Th
 **3. Interactive Filters:** By date range, product category, sales rep, supplier
 
 ---
-<h2><a class="anchor" id="how-to-run-this-project"></a>How to Run This Project</h2>
+<h2><a class="anchor" id="how-to-run-this-project"></a>▶ How to Run This Project</h2>
 
 1. Download both Sales.htm and Purchases.htm and Coubtries.xlsx
 2. Generate automated supplier performance report
 3. Build interactive Power BI/Tableau dashboard
 
 ---
-<h2><a class="anchor" id="final-recommendations"></a>Final Recommendations</h2>
+<h2><a class="anchor" id="final-recommendations"></a>✅ Final Recommendations</h2>
 
 **Results:** Identified that suppliers with warranties > 24 months have 40% lower return rates. Found 3 suppliers with return rates > 25% affecting overall profitability.
 
